@@ -26,6 +26,7 @@ This project represents a complete, industry standard, end-to-end data analytics
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Known Limitations](#known-limitations)
+- [Feedback](#if-you-found-this-project-useful)
 
 ---
 
@@ -141,6 +142,9 @@ Open `Customer_Shopping_Behavior_Dashboard.pbix` in Power BI Desktop to explore 
 ├── customer_shopping_behavior_sql_queries.sql  # 10 business-question queries
 ├── Customer_Shopping_Behavior_Dashboard.pbix   # Power BI dashboard
 ├── customer_shopping_behavior.csv              # Source data (not included — see note below)
+├── Business Problem Document.pdf
+├── Customer Shopping Behavior Analysis PDF.pdf # Report about project analysis
+├── Customer Shopping Behavior Analysis PPT.pptx # PPT about project representation 
 ├── images/
 │   └── dashboard_screenshot.png                # Dashboard preview for this README
 ├── requirements.txt
@@ -182,3 +186,10 @@ Open `Customer_Shopping_Behavior_Dashboard.pbix` in Power BI Desktop to explore 
     username = os.environ["MYSQL_USER"]
     password = quote_plus(os.environ["MYSQL_PASSWORD"])
   ```
+## If You Found This Project Useful
+
+### If this project helped you understand customer churn analysis, feel free to:
+
+- ⭐ Star the repository
+- 🍴 Fork the repository
+- 💬 Share feedback
